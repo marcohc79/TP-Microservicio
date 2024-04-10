@@ -1,0 +1,14 @@
+### Get all
+GET http://localhost:8086/sale/get
+
+### Save
+POST http://localhost:8086/sale/save
+Content-Type: application/json
+
+{
+  "cart_id" : 34,
+  "date_sale" : "2024-12-31"
+}
+
+### Get total cost
+GET http://localhost:8086/sale/get/totalprice/1

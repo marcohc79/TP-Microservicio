@@ -1,0 +1,19 @@
+### Get all produts
+GET http://localhost:8082/products/get
+
+### Save a product
+POST http://localhost:8082/products/save
+Content-Type: application/json
+
+{
+  "name": "202",
+  "brand": "Producto 201",
+  "price": 20100
+}
+
+### Edit a product
+#PUT http://localhost:8082/products/edit/201?name=Nuevo%20Nombre%20del%20Producto&brand=Nueva%20Marca&price=100
+PUT http://localhost:8082/products/edit/201?brand=Product 201
+
+### Get a product
+GET http://localhost:8082/products/get/201

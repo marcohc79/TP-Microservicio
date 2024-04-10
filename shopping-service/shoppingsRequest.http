@@ -1,0 +1,17 @@
+### Get all Carts
+GET http://localhost:8084/carts/get
+
+### Get a Cart
+GET http://localhost:8084/carts/get/1
+
+### Save a cart
+POST http://localhost:8084/carts/save/46
+
+### Delete
+DELETE http://localhost:8084/carts/delete/4
+
+### Add product
+PUT http://localhost:8084/carts/products/add/1/2
+
+### Delete product
+DELETE http://localhost:8084/carts/products/remove/2/2
